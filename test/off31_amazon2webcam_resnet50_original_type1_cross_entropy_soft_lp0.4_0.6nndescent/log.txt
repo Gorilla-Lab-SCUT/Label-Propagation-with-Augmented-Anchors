@@ -1,0 +1,79 @@
+-------------------------------------------
+Wed Jul 22 02:40:31 2020
+-------------------------------------------Constructing graph with nndescent, and the solver is: CG
+nn descent start:Wed Jul 22 02:41:03 2020
+nndescent end:Wed Jul 22 02:41:09 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.008010
+
+   iteration: 0,   Cluster Label Acc: 0.831447  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:09 2020
+nndescent end:Wed Jul 22 02:41:09 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.006571
+
+   iteration: 1,   Cluster Label Acc: 0.845283  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:09 2020
+nndescent end:Wed Jul 22 02:41:09 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.007010
+
+   iteration: 2,   Cluster Label Acc: 0.855346  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:09 2020
+nndescent end:Wed Jul 22 02:41:10 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.008886
+
+   iteration: 3,   Cluster Label Acc: 0.856604  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:10 2020
+nndescent end:Wed Jul 22 02:41:10 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.009295
+
+   iteration: 4,   Cluster Label Acc: 0.857862  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:10 2020
+nndescent end:Wed Jul 22 02:41:10 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.009254
+
+   iteration: 5,   Cluster Label Acc: 0.856604  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:10 2020
+nndescent end:Wed Jul 22 02:41:10 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.011433
+
+   iteration: 6,   Cluster Label Acc: 0.857862  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:10 2020
+nndescent end:Wed Jul 22 02:41:11 2020
+cg solution start:time: 0.000005
+cg solution end:time: 0.012960
+
+   iteration: 7,   Cluster Label Acc: 0.856604  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:11 2020
+nndescent end:Wed Jul 22 02:41:11 2020
+cg solution start:time: 0.000002
+cg solution end:time: 0.023692
+
+   iteration: 8,   Cluster Label Acc: 0.852830  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:11 2020
+nndescent end:Wed Jul 22 02:41:11 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.011266
+
+   iteration: 9,   Cluster Label Acc: 0.854088  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:11 2020
+nndescent end:Wed Jul 22 02:41:11 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.037974
+
+   iteration: 10,   Cluster Label Acc: 0.850314  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:11 2020
+nndescent end:Wed Jul 22 02:41:12 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.011303
+
+   iteration: 11,   Cluster Label Acc: 0.849057  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:12 2020
+nndescent end:Wed Jul 22 02:41:12 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.015501
+
+   iteration: 12,   Cluster Label Acc: 0.850314  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:12 2020
+nndescent end:Wed Jul 22 02:41:12 2020
+cg solution start:time: 0.000005
+cg solution end:time: 0.012718
+
+   iteration: 13,   Cluster Label Acc: 0.849057  cos threshold: 0.600000nn descent start:Wed Jul 22 02:41:12 2020
+nndescent end:Wed Jul 22 02:41:13 2020
+cg solution start:time: 0.000006
+cg solution end:time: 0.015825
+
+   iteration: 14,   Cluster Label Acc: 0.850314  cos threshold: 0.600000

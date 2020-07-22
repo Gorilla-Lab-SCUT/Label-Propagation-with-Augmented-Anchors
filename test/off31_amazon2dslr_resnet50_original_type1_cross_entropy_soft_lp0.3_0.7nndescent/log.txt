@@ -1,0 +1,36 @@
+{"AlphaGraph": 0.5, "LPIterNum": 6, "LPIterationType": "add", "LPSolver": "CG", "LPType": "lgc", "NC4LP": 3, "OurMec": false, "OurPseudo": false, "S4LP": "all", "TopkGraph": true, "alpha": 0.99, "arch": "resnet50", "batch_size": 64, "category_mean": false, "clufrq_dec": false, "cluster_freq": 1, "cor": 1.0, "cos_threshold": 0.7, "data_path_source": "/data1/domain_adaptation/Office31/", "data_path_source_t": "/data1/domain_adaptation/Office31/", "data_path_target": "/data1/domain_adaptation/Office31/", "dis": "cross_entropy", "dis_gra": "nndescent", "dis_margin": 1.0, "dsbn": false, "entropy_weight": true, "epochs": 4000, "fea_dim": 2048, "filter_low": true, "fixbn": false, "flag": "original", "gamma": 0.75, "graph_gama": 1, "graphk": 20, "img_process_s": "ours", "img_process_t": "ours", "l2_process": true, "lamb": 1.0, "log": "test/off31_amazon2dslr_resnet50_original_type1_cross_entropy_soft_lp0.3_0.7nndescent", "lr": 0.01, "lrw": 0.3, "min_num_cate": 3, "momentum": 0.9, "moving_weight": 0.7, "niter": 50, "noise_flag": false, "noise_level": 0.1, "num_classes": 31, "only_lrw": false, "per_category": 4, "pretrained": true, "pretrained_checkpoint": "", "print_freq": 1, "pseudo_type": "lp", "resume": "", "schedule": "rev", "score_frep": 300, "spherical_kmeans": true, "src": "amazon", "src_t": "dslr", "start_epoch": 0, "tar": "dslr", "test_freq": 23, "test_only": false, "threed": false, "type": "type1", "uniform_type_s": "soft", "uniform_type_t": "soft", "weight_decay": 0.0001, "weight_type": "cas_ins", "workers": 4}
+
+-------------------------------------------
+Tue Jul 21 22:08:55 2020
+-------------------------------------------Constructing graph with nndescent, and the solver is: CG
+nn descent start:Tue Jul 21 22:09:35 2020
+nndescent end:Tue Jul 21 22:09:42 2020
+cg solution start:time: 0.000005
+cg solution end:time: 0.056162
+
+   iteration: 0,   Cluster Label Acc: 0.829317  cos threshold: 0.700000nn descent start:Tue Jul 21 22:09:42 2020
+nndescent end:Tue Jul 21 22:09:43 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.063486
+
+   iteration: 1,   Cluster Label Acc: 0.843373  cos threshold: 0.700000nn descent start:Tue Jul 21 22:09:44 2020
+nndescent end:Tue Jul 21 22:09:45 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.056694
+
+   iteration: 2,   Cluster Label Acc: 0.863454  cos threshold: 0.700000nn descent start:Tue Jul 21 22:09:45 2020
+nndescent end:Tue Jul 21 22:09:46 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.059544
+
+   iteration: 3,   Cluster Label Acc: 0.871486  cos threshold: 0.700000nn descent start:Tue Jul 21 22:09:46 2020
+nndescent end:Tue Jul 21 22:09:47 2020
+cg solution start:time: 0.000006
+cg solution end:time: 0.071902
+
+   iteration: 4,   Cluster Label Acc: 0.873494  cos threshold: 0.700000nn descent start:Tue Jul 21 22:09:47 2020
+nndescent end:Tue Jul 21 22:09:48 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.058871
+
+   iteration: 5,   Cluster Label Acc: 0.873494  cos threshold: 0.700000

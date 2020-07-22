@@ -1,0 +1,36 @@
+{"AlphaGraph": 0.5, "LPIterNum": 6, "LPIterationType": "add", "LPSolver": "CG", "LPType": "lgc", "NC4LP": 3, "OurMec": false, "OurPseudo": false, "S4LP": "all", "TopkGraph": true, "alpha": 0.99, "arch": "resnet50", "batch_size": 64, "category_mean": false, "clufrq_dec": false, "cluster_freq": 1, "cor": 1.0, "cos_threshold": 0.7, "data_path_source": "/data1/domain_adaptation/image_CLEF/", "data_path_source_t": "/data1/domain_adaptation/image_CLEF/", "data_path_target": "/data1/domain_adaptation/image_CLEF/", "dis": "cross_entropy", "dis_gra": "nndescent", "dis_margin": 1.0, "dsbn": false, "entropy_weight": true, "epochs": 400, "fea_dim": 2048, "filter_low": true, "fixbn": false, "flag": "original", "gamma": 0.75, "graph_gama": 1, "graphk": 20, "img_process_s": "ours", "img_process_t": "ours", "l2_process": true, "lamb": 1.0, "log": "test/clef_p2i_resnet50_original_type1_cross_entropy_soft_lp0.3_0.7nndescent", "lr": 0.01, "lrw": 0.3, "min_num_cate": 3, "momentum": 0.9, "moving_weight": 0.7, "niter": 50, "noise_flag": false, "noise_level": 0.1, "num_classes": 12, "only_lrw": false, "per_category": 4, "pretrained": true, "pretrained_checkpoint": "", "print_freq": 1, "pseudo_type": "lp", "resume": "", "schedule": "rev", "score_frep": 300, "spherical_kmeans": true, "src": "p", "src_t": "i", "start_epoch": 0, "tar": "i", "test_freq": 23, "test_only": false, "threed": false, "type": "type1", "uniform_type_s": "soft", "uniform_type_t": "soft", "weight_decay": 0.0001, "weight_type": "cas_ins", "workers": 4}
+
+-------------------------------------------
+Tue Jul 21 22:30:49 2020
+-------------------------------------------Constructing graph with nndescent, and the solver is: CG
+nn descent start:Tue Jul 21 22:31:20 2020
+nndescent end:Tue Jul 21 22:31:26 2020
+cg solution start:time: 0.000003
+cg solution end:time: 0.007513
+
+   iteration: 0,   Cluster Label Acc: 0.893333  cos threshold: 0.700000nn descent start:Tue Jul 21 22:31:26 2020
+nndescent end:Tue Jul 21 22:31:27 2020
+cg solution start:time: 0.000005
+cg solution end:time: 0.006630
+
+   iteration: 1,   Cluster Label Acc: 0.903333  cos threshold: 0.700000nn descent start:Tue Jul 21 22:31:27 2020
+nndescent end:Tue Jul 21 22:31:27 2020
+cg solution start:time: 0.000005
+cg solution end:time: 0.006397
+
+   iteration: 2,   Cluster Label Acc: 0.900000  cos threshold: 0.700000nn descent start:Tue Jul 21 22:31:27 2020
+nndescent end:Tue Jul 21 22:31:27 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.005959
+
+   iteration: 3,   Cluster Label Acc: 0.906667  cos threshold: 0.700000nn descent start:Tue Jul 21 22:31:27 2020
+nndescent end:Tue Jul 21 22:31:28 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.006103
+
+   iteration: 4,   Cluster Label Acc: 0.911667  cos threshold: 0.700000nn descent start:Tue Jul 21 22:31:28 2020
+nndescent end:Tue Jul 21 22:31:28 2020
+cg solution start:time: 0.000004
+cg solution end:time: 0.006052
+
+   iteration: 5,   Cluster Label Acc: 0.920000  cos threshold: 0.700000
