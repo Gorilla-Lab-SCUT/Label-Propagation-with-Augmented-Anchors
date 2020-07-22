@@ -12,6 +12,8 @@ Proper algorithmic adaptation should be made when applying the SSL techniques to
     Please refer to the 'run.sh'. We also provide the corresponding log file in the file of './test'
     You can start with these examples easily.  
     
+    NOTE: Results are based on the ImageNet pre-trained features !!! No additional training involved. 
+    
     Note that the A2LP can introduce excellent pseudo labels of unlabeled target data in DA 
     (compared to the FC-based classifier and the clustering algorithm). Therefore it could
     empower algorithms of DA using pseudo labels of unlabeled target data.
