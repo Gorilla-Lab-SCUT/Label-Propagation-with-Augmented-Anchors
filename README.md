@@ -17,7 +17,12 @@ Proper algorithmic adaptation should be made when applying the SSL techniques to
     Note that the A2LP can introduce excellent pseudo labels of unlabeled target data in DA 
     (compared to the FC-based classifier and the clustering algorithm). Therefore it could
     empower algorithms of DA using pseudo labels of unlabeled target data.
-            
+
+## Requirement
+1. PyTorch 1.2.0
+2. [spherecluster](https://github.com/jasonlaska/spherecluster)
+3. [nndescent](https://github.com/lmcinnes/pynndescent)
+
 ## Dataset
 The structure of the dataset should be like
 
