@@ -52,12 +52,15 @@ Office-31
 ```
 
 ## Citation
-    @article{zhang2020label,
+    @inproceedings{zhang2020label,
       title={Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning baseline for Unsupervised Domain Adaptation},
       author={Zhang, Yabin and Deng, Bin and Jia, Kui and Zhang, Lei},
-      journal={arXiv preprint arXiv:2007.07695},
-      year={2020}
+      booktitle={European Conference on Computer Vision},
+      pages={781--797},
+      year={2020},
+      organization={Springer}
     }
+
 
 ## Contact
     If you have any problem about our code, feel free to contact
